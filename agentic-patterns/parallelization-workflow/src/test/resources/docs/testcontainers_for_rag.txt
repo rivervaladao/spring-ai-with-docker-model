@@ -1,0 +1,9 @@
+Testcontainers is a library that provides easy and lightweight APIs for bootstrapping local development and test dependencies with real services wrapped in Docker containers. Using Testcontainers, you can write tests that depend on the same services you use in production without mocks or in-memory services.
+ 
+Testcontainers provides modules for a wide range of commonly used infrastructure dependencies including relational databases, NoSQL datastores, search engines, message brokers, etc. See https://testcontainers.com/modules/ for a complete list.
+ 
+Technology-specific modules are a higher-level abstraction on top of GenericContainer which help configure and run these technologies without any boilerplate, and make it easy to access their relevant parameters.
+ 
+Official website: https://testcontainers.com/
+Getting Started: https://testcontainers.com/getting-started/
+Module Catalog: https://testcontainers.com/modules/
